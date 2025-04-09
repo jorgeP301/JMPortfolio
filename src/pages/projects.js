@@ -27,7 +27,7 @@ export default function projects() {
                     <h2>Hadoop Autograder</h2>
                     <p>
                         just take a look at this website. yes it is a static website but I had jumped into the project made in react.js,
-                        node.ja, and using the Material UI Library. Change this later
+                        node.js, and using the Material UI Library. This is me diving more into web design and a more creative side of coding.
                     </p>
                 </Card>
                 <Card className="project">
