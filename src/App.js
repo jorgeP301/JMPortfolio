@@ -1,25 +1,70 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './component/Header';
+import About from './pages/about';
+import Projects from './pages/projects';
+import Slideshow from './component/slideshow';
+import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [isDarkMode, setIsDarkMode] = useState(true);
+
+    const toggleTheme = () => {
+        setIsDarkMode((prevMode) => !prevMode);
+    };
+
+    const theme = createTheme({
+        palette: {
+            mode: isDarkMode ? 'dark' : 'light',
+            ...(isDarkMode 
+                ? {
+                    //darkmode colors
+                    background: {
+                        default: '#1E2436',
+                        paper: '#181838',
+                    },
+                    text: {
+                        primary: '#ffffff',
+                        secondary: '#b0bec5',
+                    },
+                } 
+                :
+                {
+                    //lightmode colors
+                    background: {
+                        default: '#daede1',
+                        paper: '#a3d3b3',
+                    },
+                    text: {
+                        primary: '#000000',
+                        secondary: '#555555',
+                    },
+                }), 
+        },
+        typography: {
+          fontFamily: '"Ruda", serif',
+        },
+    });
+
+
+    return (
+        <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <div className="App">
+                <Header toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
+                <div className='slideshow'>
+                    <Slideshow />
+                </div>
+                <div className='about'>
+                    <About />
+                </div>
+                <div className='projects'>
+                    <Projects />
+                </div>
+            </div>
+        </ThemeProvider>
+    );
 }
 
 export default App;
