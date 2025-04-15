@@ -33,8 +33,8 @@ function App() {
                 {
                     //lightmode colors
                     background: {
-                        default: '#daede1',
-                        paper: '#a3d3b3',
+                        default: '#B1CBFF', // #daede1 green theme
+                        paper: '#8EA3CD', // #a3d3b3 green theme
                     },
                     text: {
                         primary: '#000000',
