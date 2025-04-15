@@ -13,8 +13,10 @@
 
 .projects {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; 
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content:space-around; 
+
    
 }
 .project {
@@ -22,10 +24,6 @@
   padding: 16px;
   border: 1px solid black;
   margin: 8px;
-}
-
-.ptitle h2 {
-  font-family: "Ruda", serif; 
 }
 
 .project cardMedia {

@@ -9,7 +9,7 @@ export default function projects() {
         <div className='container'>
             <div className='ptitle'>
                 
-                <h2>Notable Projects</h2>
+                <h1>Notable Projects</h1>
                 <p>My work over the years.</p> 
             
             </div>
@@ -36,6 +36,15 @@ export default function projects() {
                     <p>
                         This project was created for my MIST4630 class where we created a dynamic web project utilising java
                         HTML, CSS, MySQL, and AWS RDS to create a book database.
+                    </p>
+                </Card> 
+                <Card className="project">
+                    <CardMedia component='img' image={bookDB} height='200' sx={{objectFit:'contain'}}/>
+                    <h2>Science Olympiad Website</h2>
+                    <p>
+                       In the spring 2025 semester at UGA I joined an student led group that maintained and improved a sceince olympiad 
+                       comptetition website. I worked in both the front-end and back--end, fixing some small issues and currently I am helping 
+                       to migrate the current database to AWS.
                     </p>
                 </Card>     
             </div> 

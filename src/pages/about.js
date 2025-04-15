@@ -24,11 +24,11 @@ function About() {
             </div>
             <div className="contents">
                 <p className="abtme"> 
-                    Hello! I am currently a senior Management Information Systems major with an emphasis in Information Security<br/>
-                    and a minor in Computer Science. With both a business and technology based focus, I aspire to be a well-rounded<br/>
-                    professional in the industry. Leveraging my love for learning computer science and coding I plan to dive into any consulting,<br/> 
-                    analyst, cybersecurity, or, development role to enter the workforce. I have worked primarily with databases and frontend <br/>
-                    web programming and data science while here at the University of Georgia and I plan to continue learning more and diversifying <br/>
+                    Hello! I am currently a senior Management Information Systems major with an emphasis in Information Security
+                    and a minor in Computer Science. With both a business and technology based focus, I aspire to be a well-rounded
+                    professional in the industry. Leveraging my love for learning computer science and coding I plan to dive into any consulting, 
+                    analyst, cybersecurity, or, development role to enter the workforce. I have worked primarily with databases and frontend 
+                    web programming and data science while here at the University of Georgia and I plan to continue learning more and diversifying 
                     skill set after reaching my goals for the coming year!
                 </p>
                 <Grow in={trigger} timeout={1000} >
