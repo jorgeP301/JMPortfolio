@@ -10,6 +10,7 @@ function About() {
         return useScrollTrigger({
             threshold: 250
         });
+        
     } 
     const trigger = useImageScrollTrigger();
     return (

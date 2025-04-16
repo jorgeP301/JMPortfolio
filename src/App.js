@@ -4,6 +4,7 @@ import Header from './component/Header';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Slideshow from './component/slideshow';
+import Contact from './pages/contact';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 
 
@@ -61,6 +62,9 @@ function App() {
                 </div>
                 <div className='projects'>
                     <Projects />
+                </div>
+                <div>
+                    <Contact />
                 </div>
             </div>
         </ThemeProvider>
