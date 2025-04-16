@@ -8,7 +8,7 @@ function About() {
 
     function useImageScrollTrigger(options={}) {
         return useScrollTrigger({
-            threshold: options.threshold || 250
+            threshold: 250
         });
     } 
     const trigger = useImageScrollTrigger();

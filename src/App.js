@@ -25,15 +25,15 @@ function App() {
                         paper: '#181838',
                     },
                     text: {
-                        primary: '#ffffff',
-                        secondary: '#b0bec5',
+                        primary: '#71f79f',
+                        secondary: '#b0bec5', //rgb(188, 232, 189)
                     },
                 } 
                 :
                 {
                     //lightmode colors
                     background: {
-                        default: '#B1CBFF', // #daede1 green theme
+                        default: '#ACBDEA', // #daede1 green theme // #B1CBFF light blue theme
                         paper: '#8EA3CD', // #a3d3b3 green theme
                     },
                     text: {

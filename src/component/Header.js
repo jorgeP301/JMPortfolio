@@ -23,7 +23,7 @@ function Header({ toggleTheme, isDarkMode }) {
     }
     
     return (
-        <AppBar position='sticky' sx={{ backgroundColor: isDarkMode ? '#252f4b' : '#647fcc', color: isDarkMode ? '#ffffff' : '#000000' }}>
+        <AppBar position='sticky' sx={{ backgroundColor: isDarkMode ? '#252f4b' : '#7495f2', color: isDarkMode ? '#71f79f' : '#000000' }}>
             <Toolbar sx={{ justifyContent: "space-between" }}>
                 <Box>   
                     <Button color="inherit" onClick={handleAboutClick}>ABOUT</Button>
