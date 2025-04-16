@@ -1,4 +1,4 @@
-import { Card, CardMedia, Container } from '@mui/material';
+import { Card, CardMedia } from '@mui/material';
 import './projects.css';
 import bytefight from '../images/byteFight.png';
 import bookDB from '../images/BookDB.png';
