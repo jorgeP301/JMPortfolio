@@ -15,12 +15,19 @@ function Header({ toggleTheme, isDarkMode }) {
             behavior: 'smooth'
         });
     }
+    const handleProjectClick  =() => {
+        window.scroll({
+            top: 1700,
+            behavior: 'smooth'
+        });
+    }
+    
     return (
         <AppBar position='sticky' sx={{ backgroundColor: isDarkMode ? '#252f4b' : '#647fcc', color: isDarkMode ? '#ffffff' : '#000000' }}>
             <Toolbar sx={{ justifyContent: "space-between" }}>
                 <Box>   
                     <Button color="inherit" onClick={handleAboutClick}>ABOUT</Button>
-                    <Button color="inherit">PROJECTS</Button>
+                    <Button color="inherit" onClick={handleProjectClick}>PROJECTS</Button>
                     <Button color="inherit">CONTACT</Button>
                 </Box>
                 <FormGroup>
