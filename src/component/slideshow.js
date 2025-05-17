@@ -5,7 +5,7 @@ import './slideshow.css';
 import img1 from "../images/UGAsurvivors.png";
 import img2 from "../images/byteFight.png";
 import img3 from "../images/BFstart.png";
-import img4 from "../images/20230507_103401.jpg";
+import img4 from "../images/woopFC.png";
 import "react-slideshow-image/dist/styles.css";
 import Fade from '@mui/material/Fade';
 

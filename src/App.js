@@ -26,8 +26,8 @@ function App() {
                         paper: '#181838',
                     },
                     text: {
-                        primary: '#71f79f',
-                        secondary: '#b0bec5', //rgb(188, 232, 189)
+                        primary: '#ffffff', // #71f79f
+                        secondary: '#b0bec5', // #b0bec5
                     },
                 } 
                 :
@@ -38,8 +38,8 @@ function App() {
                         paper: '#8EA3CD', // #a3d3b3 green theme
                     },
                     text: {
-                        primary: '#000000',
-                        secondary: '#555555',
+                        primary: '#000000', // #000000
+                        secondary: '#555555', // #555555
                     },
                 }), 
         },
