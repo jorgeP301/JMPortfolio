@@ -1,4 +1,14 @@
 .each-one {
     display:inline-flex;
-    flex-direction:row
+    flex-direction:row;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.each {
+    padding: 1ch 1ch 1ch 1ch;
+    width: 20ch;
+    height: 20ch;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;;
 }
